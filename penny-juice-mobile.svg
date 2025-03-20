@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 3200">
+  <!-- Background -->
+  <rect width="500" height="3200" fill="#F5F5F5"/>
+  
+  <!-- Mobile device frame -->
+  <rect x="50" y="50" width="400" height="3100" rx="30" ry="30" fill="#424242" stroke="#333333" stroke-width="2"/>
+  <rect x="75" y="150" width="350" height="2870" rx="2" ry="2" fill="#FFFFFF"/>
+  <rect x="200" y="100" width="100" height="20" rx="10" ry="10" fill="#333333"/>
+  <circle cx="180" cy="100" r="8" fill="#333333"/>
+  <rect x="200" y="3050" width="100" height="40" rx="20" ry="20" fill="#333333"/>
+  
+  <!-- Annotations -->
+  <text x="40" y="30" font-family="Montserrat, sans-serif" font-size="18" font-weight="bold" fill="#424242">Mobile View (375px)</text>
+  
+  <!-- Header -->
+  <rect x="75" y="150" width="350" height="70" fill="#FFFFFF"/>
+  
+  <!-- Logo -->
+  <circle cx="115" cy="185" r="18" fill="#1E88E5"/>
+  <circle cx="115" cy="185" r="12" fill="#FFFFFF"/>
+  <path d="M115 173 Q125 180 115 187 Q105 194 115 197" fill="none" stroke="#43A047" stroke-width="3" stroke-linecap="round"/>
+  <text x="145" y="191" font-family="Montserrat, sans-serif" font-size="16" font-weight="bold" fill="#1E88E5">PENNY JUICE</text>
+  
+  <!-- Mobile menu button -->
+  <rect x="350" y="170" width="30" height="30" rx="4" ry="4" fill="#FFFFFF"/>
+  <line x1="360" y1="177.5" x2="370" y2="177.5" stroke="#424242" stroke-width="2" stroke-linecap="round"/>
+  <line x1="360" y1="185" x2="370" y2="185" stroke="#424242" stroke-width="2" stroke-linecap="round"/>
+  <line x1="360" y1="192.5" x2="370" y2="192.5" stroke="#424242" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Hero Section -->
+  <rect x="75" y="220" width="350" height="450" fill="#90CAF9"/>
+  
+  <!-- Hero image -->
+  <circle cx="250" cy="310" r="60" fill="#FFD54F"/>
+  <circle cx="320" cy="350" r="40" fill="#43A047"/>
+  <circle cx="180" cy="340" r="35" fill="#E91E63"/>
+  <circle cx="250" cy="380" r="25" fill="#FF9800"/>
+  
+  <!-- Hero text -->
+  <text x="250" y="450" font-family="Montserrat, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Healthy Hydration</text>
+  <text x="250" y="480" font-family="Montserrat, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">for Happy Kids</text>
+  <text x="250" y="520" font-family="Open Sans, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">100% natural juice concentrate</text>
+  <text x="250" y="540" font-family="Open Sans, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">for childcare centers.</text>
+  <text x="250" y="560" font-family="Open Sans, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">No added sugars or preservatives.</text>
+  
+  <!-- Hero buttons -->
+  <rect x="100" y="590" width="300" height="50" rx="6" ry="6" fill="#E91E63"/>
+  <text x="250" y="622" font-family="Montserrat, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ORDER ONLINE</text>
+  
+  <rect x="100" y="650" width="300" height="50" rx="6" ry="6" fill="#FFFFFF"/>
+  <text x="250" y="682" font-family="Montserrat, sans-serif" font-size="16" font-weight="bold" fill="#1E88E5" text-anchor="middle">VIEW PRODUCTS</text>
+  
+  <!-- Products Section -->
+  <rect x="75" y="720" width="350" height="80" fill="#FFFFFF"/>
+  <text x="250" y="770" font-family="Montserrat, sans-serif" font-size="24" font-weight="bold" fill="#424242" text-anchor="middle">Our Products</text>
+  
+  <!-- Product cards (single column for mobile) -->
+  <rect x="100" y="820" width="300" height="300" rx="8" ry="8" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <circle cx="250" cy="900" r="50" fill="#FFD54F"/>
+  <text x="250" y="980" font-family="Montserrat, sans-serif" font-size="18" font-weight="bold" fill="#424242" text-anchor="middle">Citrus Blend</text>
+  <text x="250" y="1005" font-family="Open Sans, sans-serif" font-size="14" fill="#757575" text-anchor="middle">Orange, lemon, and lime</text>
+  <rect x="125" y="1035" width="250" height="40" rx="6" ry="6" fill="#FFFFFF" stroke="#1E88E5" stroke-width="2"/>
+  <text x="250" y="1060" font-family="Montserrat, sans-serif" font-size="14" font-weight="bold" fill="#1E88E5" text-anchor="middle">LEARN MORE</text>
+  
+  <rect x="100" y="1140" width="300" height="300" rx="8" ry="8" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <circle cx="250" cy="1220" r="50" fill="#43A047"/>
+  <text x="250" y="1300" font-family="Montserrat, sans-serif" font-size="18" font-weight="bold" fill="#424242" text-anchor="middle">Berry Burst</text>
+  <text x="250" y="1325" font-family="Open Sans, sans-serif" font-size="14" fill="#757575" text-anchor="middle">Strawberry, blueberry, raspberry</text>
+  <rect x="125" y="1355" width="250" height="40" rx="6" ry="6" fill="#FFFFFF" stroke="#1E88E5" stroke-width="2"/>
+  <text x="250" y="1380" font-family="Montserrat, sans-serif" font-size="14" font-weight="bold" fill="#1E88E5" text-anchor="middle">LEARN MORE</text>
+  
+  <rect x="100" y="1460" width="300" height="300" rx="8" ry="8" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <circle cx="250" cy="1540" r="50" fill="#E91E63"/>
+  <text x="250" y="1620" font-family="Montserrat, sans-serif" font-size="18" font-weight="bold" fill="#424242" text-anchor="middle">Tropical Mix</text>
+  <text x="250" y="1645" font-family="Open Sans, sans-serif" font-size="14" fill="#757575" text-anchor="middle">Pineapple, mango, passion fruit</text>
+  <rect x="125" y="1675" width="250" height="40" rx="6" ry="6" fill="#FFFFFF" stroke="#1E88E5" stroke-width="2"/>
+  <text x="250" y="1700" font-family="Montserrat, sans-serif" font-size="14" font-weight="bold" fill="#1E88E5" text-anchor="middle">LEARN MORE</text>
+  
+  <!-- Benefits Section -->
+  <rect x="75" y="1780" width="350" height="80" fill="#FFFFFF"/>
+  <text x="250" y="1830" font-family="Montserrat, sans-serif" font-size="24" font-weight="bold" fill="#424242" text-anchor="middle">Benefits</text>
+  
+  <!-- Benefits icons (single column for mobile) -->
+  <rect x="100" y="1880" width="300" height="180" rx="8" ry="8" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <circle cx="150" cy="1930" r="25" fill="#43A047"/>
+  <text x="150" y="1935" font-family="Montserrat, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">100%</text>
+  <text x="275" y="1920" font-family="Montserrat, sans-serif" font-size="16" font-weight="bold" fill="#424242">All Natural</text>
+  <text x="275" y="1950" font-family="Open Sans, sans-serif" font-size="13" fill="#757575">No artificial flavors, colors</text>
+  <text x="275" y="1970" font-family="Open Sans, sans-serif" font-size="13" fill="#757575">or preservatives</text>
+  
+  <rect x="100" y="2080" width="300" height="180" rx="8" ry="8" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <circle cx="150" cy="2130" r="25" fill="#1E88E5"/>
+  <text x="150" y="2135" font-family="Montserrat, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">$</text>
+  <text x="275" y="2120" font-family="Montserrat, sans-serif" font-size="16" font-weight="bold" fill="#424242">Cost Effective</text>
+  <text x="275" y="2150" font-family="Open Sans, sans-serif" font-size="13" fill="#757575">Save up to 40% compared to</text>
+  <text x="275" y="2170" font-family="Open Sans, sans-serif" font-size="13" fill="#757575">pre-packaged juice</text>
+  
+  <rect x="100" y="2280" width="300" height="180" rx="8" ry="8" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <circle cx="150" cy="2330" r="25" fill="#FFD54F"/>
+  <text x="150" y="2335" font-family="Montserrat, sans-serif" font-size="14" font-weight="bold" fill="#424242" text-anchor="middle">Vit</text>
+  <text x="275" y="2320" font-family="Montserrat, sans-serif" font-size="16" font-weight="bold" fill="#424242">Nutritious</text>
+  <text x="275" y="2350" font-family="Open Sans, sans-serif" font-size="13" fill="#757575">Packed with essential vitamins</text>
+  <text x="275" y="2370" font-family="Open Sans, sans-serif" font-size="13" fill="#757575">and minerals</text>
+  
+  <rect x="100" y="2480" width="300" height="180" rx="8" ry="8" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <circle cx="150" cy="2530" r="25" fill="#E91E63"/>
+  <text x="150" y="2535" font-family="Montserrat, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">★</text>
+  <text x="275" y="2520" font-family="Montserrat, sans-serif" font-size="16" font-weight="bold" fill="#424242">Kid Approved</text>
+  <text x="275" y="2550" font-family="Open Sans, sans-serif" font-size="13" fill="#757575">Delicious flavors that</text>
+  <text x="275" y="2570" font-family="Open Sans, sans-serif" font-size="13" fill="#757575">children love</text>
+  
+  <!-- Nutrition Section - Dropdown Version for Mobile -->
+  <rect x="75" y="2680" width="350" height="80" fill="#FFFFFF"/>
+  <text x="250" y="2730" font-family="Montserrat, sans-serif" font-size="24" font-weight="bold" fill="#424242" text-anchor="middle">Nutrition</text>
+  
+  <!-- Dropdown select instead of tabs -->
+  <rect x="100" y="2760" width="300" height="40" rx="4" ry="4" fill="#FFFFFF" stroke="#1E88E5" stroke-width="1"/>
+  <text x="125" y="2785" font-family="Open Sans, sans-serif" font-size="14" fill="#424242">Select Flavor</text>
+  <text x="380" y="2785" font-family="Open Sans, sans-serif" font-size="14" fill="#424242">▼</text>
+  
+  <!-- Simplified nutrition information -->
+  <rect x="100" y="2820" width="300" height="200" rx="8" ry="8" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="250" y="2850" font-family="Montserrat, sans-serif" font-size="16" font-weight="bold" fill="#424242" text-anchor="middle">Citrus Blend Nutrition</text>
+  
+  <rect x="120" y="2870" width="260" height="1" fill="#E0E0E0"/>
+  
+  <text x="140" y="2900" font-family="Open Sans, sans-serif" font-size="14" fill="#424242">Calories</text>
+  <text x="320" y="2900" font-family="Open Sans, sans-serif" font-size="14" fill="#424242">60</text>
+  
+  <rect x="120" y="2915" width="260" height="1" fill="#E0E0E0"/>
+  
+  <text x="140" y="2945" font-family="Open Sans, sans-serif" font-size="14" fill="#424242">Sugar</text>
+  <text x="320" y="2945" font-family="Open Sans, sans-serif" font-size="14" fill="#424242">14g</text>
+  
+  <rect x="120" y="2960" width="260" height="1" fill="#E0E0E0"/>
+  
+  <text x="140" y="2990" font-family="Open Sans, sans-serif" font-size="14" fill="#424242">Vitamin C</text>
+  <text x="320" y="2990" font-family="Open Sans, sans-serif" font-size="14" fill="#424242">45mg (50%)</text>
+  
+  <!-- Footer -->
+  <rect x="75" y="3040" width="350" height="350" fill="#1E88E5"/>
+  
+  <!-- Footer content (single column for mobile) -->
+  <text x="250" y="3080" font-family="Montserrat, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">PENNY JUICE</text>
+  <rect x="150" y="3090" width="200" height="1" fill="#FFFFFF" opacity="0.2"/>
+  
+  <!-- Footer links -->
+  <text x="250" y="3120" font-family="Montserrat, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Products</text>
+  <text x="180" y="3145" font-family="Open Sans, sans-serif" font-size="12" fill="#FFFFFF">Citrus Blend</text>
+  <text x="250" y="3145" font-family="Open Sans, sans-serif" font-size="12" fill="#FFFFFF">|</text>
+  <text x="280" y="3145" font-family="Open Sans, sans-serif" font-size="12" fill="#FFFFFF">Berry Burst</text>
+  <text x="180" y="3165" font-family="Open Sans, sans-serif" font-size="12" fill="#FFFFFF">Tropical Mix</text>
+  <text x="250" y="3165" font-family="Open Sans, sans-serif" font-size="12" fill="#FFFFFF">|</text>
+  <text x="290" y="3165" font-family="Open Sans, sans-serif" font-size="12" fill="#FFFFFF">Apple</text>
+  
+  <text x="250" y="3195" font-family="Montserrat, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Resources</text>
+  <text x="180" y="3220" font-family="Open Sans, sans-serif" font-size="12" fill="#FFFFFF">Nutrition</text>
+  <text x="230" y="3220" font-family="Open Sans, sans-serif" font-size="12" fill="#FFFFFF">|</text>
+  <text x="250" y="3220" font-family="Open Sans, sans-serif" font-size="12" fill="#FFFFFF">Mixing</text>
+  <text x="290" y="3220" font-family="Open Sans, sans-serif" font-size="12" fill="#FFFFFF">|</text>
+  <text x="320" y="3220" font-family="Open Sans, sans-serif" font-size="12" fill="#FFFFFF">Storage</text>
+  
+  <text x="250" y="3250" font-family="Montserrat, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Company</text>
+  <text x="195" y="3275" font-family="Open Sans, sans-serif" font-size="12" fill="#FFFFFF">About</text>
+  <text x="230" y="3275" font-family="Open Sans, sans-serif" font-size="12" fill="#FFFFFF">|</text>
+  <text x="255" y="3275" font-family="Open Sans, sans-serif" font-size="12" fill="#FFFFFF">Contact</text>
+  <text x="295" y="3275" font-family="Open Sans, sans-serif" font-size="12" fill="#FFFFFF">|</text>
+  <text x="320" y="3275" font-family="Open Sans, sans-serif" font-size="12" fill="#FFFFFF">FAQ</text>
+  
+  <!-- Newsletter -->
+  <text x="250" y="3305" font-family="Montserrat, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Newsletter</text>
+  <rect x="125" y="3320" width="250" height="30" rx="4" ry="4" fill="#FFFFFF"/>
+  <text x="140" y="3340" font-family="Open Sans, sans-serif" font-size="12" fill="#757575">Your email</text>
+  <rect x="187.5" y="3360" width="125" height="30" rx="4" ry="4" fill="#FFD54F"/>
+  <text x="250" y="3380" font-family="Montserrat, sans-serif" font-size="12" font-weight="bold" fill="#424242" text-anchor="middle">SUBSCRIBE</text>
+  
+  <!-- Copyright -->
+  <rect x="75" y="3390" width="350" height="1" fill="#FFFFFF" opacity="0.2"/>
+  <text x="250" y="3410" font-family="Open Sans, sans-serif" font-size="10" fill="#FFFFFF" text-anchor="middle">© 2025 Penny Juice. All rights reserved.</text>
+  
+  <!-- Responsive annotations -->
+  <text x="30" y="185" font-family="Open Sans, sans-serif" font-size="12" fill="#E91E63" text-anchor="end">Simple header</text>
+  <line x1="30" y1="185" x2="75" y2="185" stroke="#E91E63" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <text x="30" y="620" font-family="Open Sans, sans-serif" font-size="12" fill="#E91E63" text-anchor="end">Full-width buttons</text>
+  <line x1="30" y1="620" x2="75" y2="620" stroke="#E91E63" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <text x="30" y="970" font-family="Open Sans, sans-serif" font-size="12" fill="#E91E63" text-anchor="end">Single column layout</text>
+  <line x1="30" y1="970" x2="75" y2="970" stroke="#E91E63" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <text x="30" y="1930" font-family="Open Sans, sans-serif" font-size="12" fill="#E91E63" text-anchor="end">Side-by-side icons</text>
+  <line x1="30" y1="1930" x2="75" y2="1930" stroke="#E91E63" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <text x="30" y="2780" font-family="Open Sans, sans-serif" font-size="12" fill="#E91E63" text-anchor="end">Dropdown vs tabs</text>
+  <line x1="30" y1="2780" x2="75" y2="2780" stroke="#E91E63" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <text x="30" y="3150" font-family="Open Sans, sans-serif" font-size="12" fill="#E91E63" text-anchor="end">Compact footer links</text>
+  <line x1="30" y1="3150" x2="75" y2="3150" stroke="#E91E63" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <text x="450" y="350" font-family="Open Sans, sans-serif" font-size="12" fill="#E91E63">Simplified imagery</text>
+  <line x1="450" y1="350" x2="425" y2="350" stroke="#E91E63" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <text x="450" y="970" font-family="Open Sans, sans-serif" font-size="12" fill="#E91E63">Larger touch targets</text>
+  <line x1="450" y1="970" x2="425" y2="970" stroke="#E91E63" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <text x="450" y="1930" font-family="Open Sans, sans-serif" font-size="12" fill="#E91E63">Modified card layout</text>
+  <line x1="450" y1="1930" x2="425" y2="1930" stroke="#E91E63" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <text x="450" y="2850" font-family="Open Sans, sans-serif" font-size="12" fill="#E91E63">Simplified tables</text>
+  <line x1="450" y1="2850" x2="425" y2="2850" stroke="#E91E63" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <text x="450" y="3200" font-family="Open Sans, sans-serif" font-size="12" fill="#E91E63">Centered content</text>
+  <line x1="450" y1="3200" x2="425" y2="3200" stroke="#E91E63" stroke-width="1" stroke-dasharray="5,5"/>
+</svg>

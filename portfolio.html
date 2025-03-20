@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penny Juice Redesign - Case Study</title>
+    <link rel="stylesheet" href="portfolio-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <div class="logo">
+                    <a href="#">
+                        <span class="logo-text">CSCI 1300 - Responsive Redesign</span>
+                    </a>
+                </div>
+                
+                <div class="mobile-toggle" id="mobileToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li><a href="#overview" class="nav-link">Overview</a></li>
+                    <li><a href="#analysis" class="nav-link">Analysis</a></li>
+                    <li><a href="#design" class="nav-link">Design</a></li>
+                    <li><a href="#implementation" class="nav-link">Implementation</a></li>
+                    <li><a href="#reflection" class="nav-link">Reflection</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="headline">Penny Juice Redesign</h1>
+                <p class="subheadline">A comprehensive case study on improving the user experience of a B2B e-commerce site selling concentrated juice to childcare centers</p>
+                <div class="hero-actions">
+                    <a href="https://www.pennyjuice.com/" target="_blank" class="btn-outline">
+                        <i class="fas fa-external-link-alt"></i> Original Website
+                    </a>
+                    <a href="index.html" target="_blank" class="btn-primary">
+                        <i class="fas fa-eye"></i> View Redesign
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-divider"></div>
+    </header>
+
+    <main class="main">
+        <!-- Project Overview -->
+        <section id="overview" class="section section-overview">
+            <div class="container">
+                <h2 class="project-title">Project Overview</h2>
+                <div class="overview-card">
+                    <p class="section-lead" style="margin-top: 15px;">This case study explores the process of redesigning the Penny Juice website, a business-oriented site selling concentrated juice to childcare centers. The website had significant usability issues despite its simple goal, creating an opportunity for meaningful improvement through responsive redesign.</p>
+                    
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker">
+                                <div class="timeline-icon">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="timeline-connector"></div>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>Problem Identification</h3>
+                                <p>Analyzing usability issues and accessibility problems in the existing interface</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker">
+                                <div class="timeline-icon">
+                                    <i class="fas fa-paint-brush"></i>
+                                </div>
+                                <div class="timeline-connector"></div>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>Visual Design</h3>
+                                <p>Creating style guide and wireframes for multiple screen sizes</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker">
+                                <div class="timeline-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>Implementation</h3>
+                                <p>Building responsive website with semantic HTML and CSS</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="btn-container">
+                        <a href="#analysis" class="btn btn-secondary">
+                            <i class="fas fa-arrow-down"></i> See the analysis
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Analysis Section -->
+        <section id="analysis" class="section section-analysis">
+            <div class="container">
+                <h2 class="section-title">Usability Analysis</h2>
+                <p class="section-lead">The original Penny Juice website suffered from several critical usability and accessibility issues that impacted user experience.</p>
+                
+                <div class="analysis-grid">
+                    <div class="original-site">
+                        <img src="images/original-site.png" alt="Original Penny Juice website showing cluttered layout and interface issues" class="image-shadow">
+                        <div class="image-caption">Original Penny Juice website featuring outdated design, poor hierarchy, and cluttered elements</div>
+                    </div>
+                    
+                    <div class="findings">
+                        <div class="category-tabs">
+                            <div class="tab active" data-tab="learnability">
+                                <div class="tab-icon"><i class="fas fa-graduation-cap"></i></div>
+                                <div class="tab-label">Learnability</div>
+                            </div>
+                            <div class="tab" data-tab="efficiency">
+                                <div class="tab-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div class="tab-label">Efficiency</div>
+                            </div>
+                            <div class="tab" data-tab="conceptual">
+                                <div class="tab-icon"><i class="fas fa-sitemap"></i></div>
+                                <div class="tab-label">Conceptual Models</div>
+                            </div>
+                            <div class="tab" data-tab="accessibility">
+                                <div class="tab-icon"><i class="fas fa-universal-access"></i></div>
+                                <div class="tab-label">Accessibility</div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="learnability">
+                                <h3>Learnability Issues</h3>
+                                <ul class="feature-list">
+                                    <li>Animated GIFs and flashing elements create a confusing homepage experience</li>
+                                    <li>Key information is buried beneath decorative elements</li>
+                                    <li>Overlapping, illogically sequenced content categories confuse site navigation</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="tab-pane" id="efficiency">
+                                <h3>Efficiency Problems</h3>
+                                <ul class="feature-list">
+                                    <li>No direct search functionality, forcing menu navigation for specific information</li>
+                                    <li>Order forms have confusing layouts and require unnecessary information</li>
+                                    <li>Inconsistent page structures force users to relearn the interface repeatedly</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="tab-pane" id="conceptual">
+                                <h3>Conceptual Model Issues</h3>
+                                <ul class="feature-list">
+                                    <li>Childlike aesthetic clashes with B2B e-commerce purpose for childcare professionals</li>
+                                    <li>Navigation structure fails to match how childcare professionals purchase juice concentrate</li>
+                                    <li>Lack of visual indicators for visited sections or completed actions</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="tab-pane" id="accessibility">
+                                <h3>Accessibility Issues (WebAIM WAVE Results)</h3>
+                                <ul class="feature-list">
+                                    <li>Multiple images missing alternative text, making content inaccessible to screen readers</li>
+                                    <li>Poor color contrast between text and background in multiple sections</li>
+                                    <li>Form fields lack proper labels, creating barriers for users with screen readers</li>
+                                    <li>Several links have no descriptive text</li>
+                                    <li>Lack of proper heading hierarchy and structural elements</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Design Section -->
+        <section id="design" class="section section-design">
+            <div class="container">
+                <h2 class="section-title">Visual Design</h2>
+                <p class="section-lead">Based on the identified issues, I created a comprehensive visual design system that balances professionalism with child-friendly elements.</p>
+                
+                <div class="card style-guide">
+                    <h3><i class="fas fa-palette"></i> Style Guide</h3>
+                    <img src="images/penny-juice-style-guide.png" alt="Visual design style guide showing colors, typography, buttons, icons, and controls" class="full-width-image">
+                    
+                    <div class="design-principles">
+                        <div class="principle">
+                            <div class="principle-icon">
+                                <i class="fas fa-swatchbook"></i>
+                            </div>
+                            <div class="principle-content">
+                                <h4>Color Strategy</h4>
+                                <p>The color palette balances professionalism with child-friendly elements. The primary blue provides trust and stability, while the accent colors create warmth and energy.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="principle">
+                            <div class="principle-icon">
+                                <i class="fas fa-font"></i>
+                            </div>
+                            <div class="principle-content">
+                                <h4>Typography</h4>
+                                <p>Montserrat was selected as the primary font for its clean legibility and professional appearance, creating a clear information hierarchy.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="principle">
+                            <div class="principle-icon">
+                                <i class="fas fa-th-large"></i>
+                            </div>
+                            <div class="principle-content">
+                                <h4>Component Design</h4>
+                                <p>UI components are designed for consistency across devices with clear interactive states and accessible contrast ratios.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <h3 class="mockup-heading"><i class="fas fa-desktop"></i> Responsive Mockups</h3>
+                <div class="mockup-grid">
+                    <div class="mockup">
+                        <div class="mockup-image">
+                            <img src="images/penny-juice-desktop-final.png" alt="Desktop mockup of the redesigned website">
+                            <div class="mockup-overlay">
+                                <a href="images/penny-juice-desktop-final.png" target="_blank" class="mockup-zoom">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mockup-info">
+                            <h4>Desktop</h4>
+                            <p>Optimized for large screens with expanded navigation and multi-column layout</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mockup">
+                        <div class="mockup-image">
+                            <img src="images/penny-juice-tablet-final.png" alt="Tablet mockup of the redesigned website">
+                            <div class="mockup-overlay">
+                                <a href="images/penny-juice-tablet-final.png" target="_blank" class="mockup-zoom">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mockup-info">
+                            <h4>Tablet</h4>
+                            <p>Adapted for medium-sized screens with condensed navigation</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mockup">
+                        <div class="mockup-image">
+                            <img src="images/penny-juice-mobile-final.png" alt="Mobile mockup of the redesigned website">
+                            <div class="mockup-overlay">
+                                <a href="images/penny-juice-mobile-final.png" target="_blank" class="mockup-zoom">
+                                    <i class="fas fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mockup-info">
+                            <h4>Mobile</h4>
+                            <p>Streamlined for smaller screens with touch-friendly elements</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Implementation Section -->
+        <section id="implementation" class="section section-implementation">
+            <div class="container">
+                <h2 class="section-title">Responsive Implementation</h2>
+                <p class="section-lead">Using HTML and CSS, I implemented the responsive design that adapts seamlessly across different screen sizes.</p>
+                
+                <div class="implementation-grid">
+                    <div class="card">
+                        <h3><i class="fas fa-code"></i> Development Approach</h3>
+                        <ul class="feature-list large">
+                            <li>
+                                <span class="feature-icon">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </span>
+                                <span class="feature-text">Mobile-first responsive design strategy</span>
+                            </li>
+                            <li>
+                                <span class="feature-icon">
+                                    <i class="fas fa-th"></i>
+                                </span>
+                                <span class="feature-text">Flexbox and CSS Grid for adaptive layouts</span>
+                            </li>
+                            <li>
+                                <span class="feature-icon">
+                                    <i class="fas fa-palette"></i>
+                                </span>
+                                <span class="feature-text">CSS variables for consistent styling</span>
+                            </li>
+                            <li>
+                                <span class="feature-icon">
+                                    <i class="fas fa-image"></i>
+                                </span>
+                                <span class="feature-text">Optimized images for faster loading</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card">
+                        <h3><i class="fas fa-universal-access"></i> Accessibility Improvements</h3>
+                        <ul class="feature-list large">
+                            <li>
+                                <span class="feature-icon">
+                                    <i class="fas fa-file-code"></i>
+                                </span>
+                                <span class="feature-text">Semantic HTML structure with proper heading hierarchy</span>
+                            </li>
+                            <li>
+                                <span class="feature-icon">
+                                    <i class="fas fa-adjust"></i>
+                                </span>
+                                <span class="feature-text">WCAG-compliant color contrast ratios</span>
+                            </li>
+                            <li>
+                                <span class="feature-icon">
+                                    <i class="fas fa-keyboard"></i>
+                                </span>
+                                <span class="feature-text">Keyboard navigation support</span>
+                            </li>
+                            <li>
+                                <span class="feature-icon">
+                                    <i class="fas fa-image"></i>
+                                </span>
+                                <span class="feature-text">Alt text for all images</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Reflection Section -->
+        <section id="reflection" class="section section-reflection" style="margin-top: -90px;">
+            <div class="container">
+                <h2 class="section-title">Reflections & Learnings</h2>
+                <p class="section-lead">This redesign project provided valuable insights into creating effective, user-centered web experiences.</p>
+                
+                <div class="reflection-grid">
+                    <div class="reflection-card">
+                        <div class="reflection-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <h3>Balancing Aesthetics and Function</h3>
+                        <p>Creating a design that balances child-friendly appeal with professional B2B functionality required careful consideration of color, typography, and visual elements.</p>
+                    </div>
+                    
+                    <div class="reflection-card">
+                        <div class="reflection-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Responsive Design Challenges</h3>
+                        <p>Developing layouts that adapt gracefully across different screen sizes required thinking beyond simply shrinking content.</p>
+                    </div>
+                    
+                    <div class="reflection-card">
+                        <div class="reflection-icon">
+                            <i class="fas fa-universal-access"></i>
+                        </div>
+                        <h3>Accessibility as a Priority</h3>
+                        <p>Addressing accessibility wasn't simply a checklist item but a fundamental design principle that improved the experience for all users.</p>
+                    </div>
+                    
+                    <div class="reflection-card">
+                        <div class="reflection-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>The Value of Style Guides</h3>
+                        <p>Creating a comprehensive style guide early in the process proved invaluable for maintaining consistency throughout the implementation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Explore the Redesigned Website</h2>
+                <p>Experience the improved Penny Juice website with enhanced usability, accessibility, and responsive design.</p>
+                <a href="index.html" target="_blank" class="btn btn-light btn-large">
+                    <i class="fas fa-external-link-alt"></i> View Redesigned Website
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>Created by Diksha Krishnan ❤️</p>
+                <div class="footer-links">
+                    <a href="#overview">Overview</a>
+                    <a href="#analysis">Analysis</a>
+                    <a href="#design">Design</a>
+                    <a href="#implementation">Implementation</a>
+                    <a href="#reflection">Reflection</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu toggle
+            const mobileToggle = document.getElementById('mobileToggle');
+            const navMenu = document.querySelector('.nav-menu');
+            
+            mobileToggle.addEventListener('click', function() {
+                mobileToggle.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            });
+            
+            // Close menu when clicking a nav link
+            const navLinks = document.querySelectorAll('.nav-menu a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    mobileToggle.classList.remove('active');
+                    navMenu.classList.remove('active');
+                });
+            });
+            
+            // Category tabs
+            const tabs = document.querySelectorAll('.tab');
+            const tabPanes = document.querySelectorAll('.tab-pane');
+            
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    const target = this.getAttribute('data-tab');
+                    
+                    // Remove active class from all tabs
+                    tabs.forEach(t => t.classList.remove('active'));
+                    
+                    // Add active class to clicked tab
+                    this.classList.add('active');
+                    
+                    // Show the corresponding tab content
+                    tabPanes.forEach(pane => {
+                        pane.classList.remove('active');
+                        if (pane.id === target) {
+                            pane.classList.add('active');
+                        }
+                    });
+                });
+            });
+            
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 70,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Active navigation based on scroll position
+            function updateActiveNav() {
+                const sections = document.querySelectorAll('.section');
+                const navLinks = document.querySelectorAll('.nav-link');
+                
+                let currentSection = '';
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.offsetHeight;
+                    const scrollPosition = window.scrollY + 150; // Offset for better detection
+                    
+                    if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                        currentSection = section.getAttribute('id');
+                    }
+                });
+                
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${currentSection}`) {
+                        link.classList.add('active');
+                    }
+                });
+            }
+            
+            window.addEventListener('scroll', updateActiveNav);
+            updateActiveNav(); // Initial check on page load
+        });
+    </script>
+</body>
+</html>
