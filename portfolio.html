@@ -195,7 +195,7 @@
                 
                 <div class="card style-guide">
                     <h3><i class="fas fa-palette"></i> Style Guide</h3>
-                    <img src="images/penny-juice-style-guide.png" alt="Visual design style guide showing colors, typography, buttons, icons, and controls" class="full-width-image">
+                    <img src="images/penny-juice-style-guide-updated.png" alt="Visual design style guide showing colors, typography, buttons, icons, and controls" class="full-width-image">
                     
                     <div class="design-principles">
                         <div class="principle">
@@ -280,7 +280,7 @@
             </div>
         </section>
         
-        <!-- Implementation Section -->
+        <!-- Implementation Section
         <section id="implementation" class="section section-implementation">
             <div class="container">
                 <h2 class="section-title">Responsive Implementation</h2>
@@ -345,6 +345,57 @@
                                 <span class="feature-text">Alt text for all images</span>
                             </li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Responsive Design Decisions Section to be added between Design and Implementation sections -->
+        <section class="section responsive-design">
+            <div class="container">
+                <h2 class="section-title">Responsive Design Decisions</h2>
+                <p class="section-lead">A detailed analysis of how specific elements adapt across different screen sizes and how these changes enhance the user experience.</p>
+                
+                <div class="card">
+                    <h3><i class="fas fa-columns"></i> Responsive Strategy Overview</h3>
+                    <p>The redesign follows a mobile-first approach with progressive enhancement to ensure optimal user experience across all devices. Key decisions were made to transform the interface at specific breakpoints where the layout would otherwise break or become difficult to use.</p>
+                    
+                    <div class="strategy-grid">
+                        <div class="strategy-item">
+                            <h4>Mobile (375px)</h4>
+                            <section class="responsive-strategy">
+                                <ul class="feature-list">
+                                    <li>Single column layout prioritizes content</li>
+                                    <li>Hamburger menu conserves screen space</li>
+                                    <li>Larger touch targets (min 44×44px) for finger navigation</li>
+                                    <li>Stack buttons vertically in hero section</li>
+                                </ul>
+                            </section>
+                        </div>
+                        
+                        <div class="strategy-item">
+                            <h4>Tablet (768px)</h4>
+                            <section class="responsive-strategy">
+                                <ul class="feature-list">
+                                    <li>Two-column layout for products and benefits</li>
+                                    <li>Condensed navigation with key items visible</li>
+                                    <li>Improved information density</li>
+                                    <li>Horizontal display for key action buttons</li>
+                                </ul>
+                            </section>
+                        </div>
+                        
+                        <div class="strategy-item">
+                            <h4>Desktop (1920px+)</h4>
+                            <section class="responsive-strategy">
+                                <ul class="feature-list">
+                                    <li>Full horizontal navigation with all options visible</li>
+                                    <li>Three-column layout for products</li>
+                                    <li>Side-by-side content in hero section</li>
+                                    <li>Optimized for quick scanning and decision-making</li>
+                                </ul>
+                            </section>
+                        </div>
                     </div>
                 </div>
             </div>
